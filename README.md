@@ -11,7 +11,7 @@
 
 ## Demo
 
-Visit our [Zodiac Webpage](./zodiac.home.html)
+Visit our [Zodiac Webpage](https://yandang1304.github.io/Zodiac_webpage/zodiac.home.html)
 ## Features
 <ol>
 <li><b>Your Sign:</b>Determine which zodiac sign you belong to.Comprehensive profiles of each zodiac sign.</li>
