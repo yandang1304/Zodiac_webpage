@@ -1,9 +1,175 @@
-:root {
-    --primary-color: #edf7fa;
-    --secondary-color: #fdffab;
-    --third-color:#ec727e; 
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .fullscreen-video-container {
+    position: relative;
+    height: 100vh; 
+    width: 100vw;
+    overflow: hidden;
+    
+  }
+  .nav-bar {
+    font-family:"Courgette", cursive;            
+    display: flex;
+    gap: 900px;
+    margin-top: 10px;
+
 }
 
-body {
-    background-image: url('');
+#name{
+  margin-left: 30px;
+  font-family:"Courgette", cursive;
+  font-size: 30px;
+  color: white;
+}
+  .info {
+      width: 220px;
+      margin-left: 40px;
+      margin-top: 2px;
+      background-color: purple;
+      border-radius: 20px;
+      padding: 14px 25px;
+      text-align: center;
+      font-size: 16px;                
+      
+  }
+
+  .info a{
+      margin-right: 20px;
+      color: white;
+  }
+  .info a:hover {
+      color: red;
+  }
+  .fullscreen-video-container video {
+    position: absolute;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index : -1;
+  }
+
+  .fullscreen-video-content {
+    margin-top: 100px;
+    
+  }
+  .fullscreen-video-content h1 { 
+    color: white;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 80px;
+  }
+.fullscreen-video-content p {
+    color: white;
+    font-family: "Satisfy", cursive;
+    font-size: 25px;
+    position: relative;
+    left: 120px;
+    text-align: center; 
+    width: 80%;
+}
+.fullscreen-video-content h2 {
+    letter-spacing: 4px;
+    border: 2px solid none;
+    width: 900px;
+    height: 100px;
+    border-radius: 40px;
+    margin-left: 280px;
+    margin-bottom: 100px;
+    background: linear-gradient(45deg,rgba(227, 5, 239, 0.97),rgba(239, 7, 189, 0.67));
+    color: white; 
+    font-family: "Lobster", sans-serif;
+    font-size: 40px;
+    text-align: center;
+  
+}
+.main {
+  background-image: url("zodiac.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: absolute;
+  width: auto;
+  height: auto;
+  min-width: 100%;
+  min-height: 100%;
+  display:flex;
+  
+
+}
+.sign {
+ 
+  width: 600px;
+  margin-left: 40px;
+  margin-top: 100px; 
+  
+}
+img {
+  border-radius: 100px;
+  border: 5px solid none;
+
+}
+  
+#button1 {
+ font-size: 50px;
+ color: black;
+ margin-left: 160px;
+ border: 3px solid yellow;
+  border-radius: 20px;
+  background: linear-gradient(45deg, rgba(242, 75, 75, 0.966), rgba(204, 35, 114, 0.543)); 
+  font-family: "Satisfy", cursive;
+
+}
+
+.new {
+  border: 4px solid rgb(118, 13, 101);
+  width: 530px;
+  height: 550px;
+  border-radius: 40px;
+  background: linear-gradient(45deg,rgba(132, 0, 255, 0.422), rgba(255, 0, 119, 0.652));   
+  margin-top: 50px; 
+ 
+}
+#button2 {
+ font-size: 50px;
+ color: black;
+ border: 3px solid yellow;
+ border-radius: 20px;
+ background: linear-gradient(45deg, rgba(242, 75, 75, 0.966), rgba(204, 35, 114, 0.543)); 
+ font-family: "Satisfy", cursive;
+ margin-left: 120px;
+ 
+}
+.yourcomp img {
+  border-radius: 100px;
+  border: 5px solid none;
+  margin-top: 90px;
+  margin-left: 60px;
+}
+.yourcomp {
+  border: 4px solid rgb(118, 13, 101);
+  width: 530px;
+  height: 550px;
+  border-radius: 40px;
+  background: linear-gradient(45deg,rgba(132, 0, 255, 0.422), rgba(255, 0, 119, 0.652));    
+  margin-left: 420px;
+  margin-top: 50px;
+}
+
+
+.arrow {
+  font-family: Arial;
+  font-size: 90px;
+  color: black;
+  margin-right: 140px;
 }

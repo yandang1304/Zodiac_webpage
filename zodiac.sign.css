@@ -1,0 +1,150 @@
+body {
+    background-image: url("12sign.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-size: 17px;
+}
+img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    
+}
+.positive {
+margin-right: 30%;
+line-height: 40px;
+border: 4px solid rgba(123, 0, 255, 0.525);
+border-radius: 12px;
+background: linear-gradient(45deg,rgba(132, 0, 255, 0.422), rgba(255, 0, 119, 0.652));    
+}              
+.negative {
+    margin-right: 30%;
+    line-height: 40px;
+    border: 4px solid rgba(123, 0, 255, 0.525);
+    border-radius: 12px;
+    background: linear-gradient(45deg,rgba(132, 0, 255, 0.422), rgba(255, 0, 119, 0.652));    
+}
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+}
+.look {
+
+    width: 350px;
+    text-align: center;
+    line-height: 20px;
+    border: 4px solid rgba(255, 243, 105, 0.966);
+    border-radius: 12px;
+    background: linear-gradient(45deg,rgba(255, 0, 0, 0.422), rgba(16, 26, 67, 0.605));   
+    margin-left: 38%; 
+    margin-top: 70px;
+}
+.work {
+    margin-right: 30%;
+    line-height: 40px;
+    border: 4px solid rgba(123, 0, 255, 0.525);
+    border-radius: 12px;
+    background: linear-gradient(45deg,rgba(132, 0, 255, 0.422), rgba(255, 0, 119, 0.652));
+}
+.relationship {
+    margin-right: 30%; 
+    line-height: 20px;
+    border: 4px solid rgba(123, 0, 255, 0.525);
+    border-radius: 12px;
+    background: linear-gradient(45deg,rgba(132, 0, 255, 0.422), rgba(255, 0, 119, 0.652));
+
+}
+.health{
+    width: 700px;
+    line-height: 20px;
+    border: 4px solid rgba(123, 0, 255, 0.525);
+    border-radius: 12px;
+    background: linear-gradient(45deg,rgba(132, 0, 255, 0.422), rgba(255, 0, 119, 0.652));
+}
+.nav-bar {
+    font-family:"Courgette", cursive;            
+    display: flex;
+    gap: 900px;
+    margin-top: 10px;
+
+}
+
+#name{
+  margin-left: 30px;
+  font-family:"Courgette", cursive;
+  font-size: 30px;
+  color: white;
+}
+.info {
+    width: 220px;
+    margin-left: 40px;
+    margin-top: 2px;
+    background-color: purple;
+    border-radius: 20px;
+    padding: 14px 25px;
+    text-align: center;
+    font-size: 16px;                
+    
+}
+
+.info a{
+    margin-right: 20px;
+    color: white;
+}
+.info a:hover {
+    color: red;
+}
+.container  {
+    text-align: center;
+}
+.container h1 {
+    border: 2px solid blue;
+    border-radius: 12px;
+    background: linear-gradient(45deg,rgba(255, 247, 0, 0.904), rgba(255, 0, 119, 0.652));
+    width: 400px;
+    margin-left: 560px;
+
+}
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#zodiac {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    border: 1px solid none;
+    border-radius: 12px;
+    background: linear-gradient(45deg,rgba(19, 17, 21, 0.904), rgba(54, 3, 27, 0.652));
+    width: 700px;
+    margin-left: 400px;
+}
+hr.new {
+    margin-top: 30px;
+    border: 1px solid white;
+}
+
+/* .glyphicon glyphicon-download-alt {
+
+} */
