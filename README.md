@@ -3,15 +3,13 @@
 >Welcome to the Zodiac Webpage! Our site offers detailed insights into each of the 12 zodiac signs, their characteristics, and their compatibility with other signs. Whether you're new to astrology or an experienced enthusiast, this platform is tailored for you.
 
 ## Table of Contents
-- [Demo](#demo)
+
 - [Features](#features)
 - [Your Sign](#your-sign)
 - [Compatibility](#compatibility)
 - [How to Use the Webpage](#how-to-use-the-webpage)
 
-## Demo
 
-Visit our [Zodiac Webpage](https://yandang1304.github.io/Zodiac_webpage/zodiac.home.html)
 ## Features
 <ol>
 <li><b>Your Sign:</b>Determine which zodiac sign you belong to.Comprehensive profiles of each zodiac sign.</li>
